@@ -14,8 +14,8 @@ public class CreateAccountAPITest {
 	@Test(description = "Verify if Signup API is working")
 	public void createAccountTest() {
 
-		SignUpRequest signUpRequest = new SignUpRequest.Builder().username("demo123").password("demo1234")
-				.email("demo@gmail.com").firstName("Demo").lastName("User").mobileNumber("9876543267").build();
+		SignUpRequest signUpRequest = new SignUpRequest.Builder().username("demo1234").password("demo12345")
+				.email("demo12@gmail.com").firstName("Demo1").lastName("User").mobileNumber("9876543260").build();
 
 		AuthService authService = new AuthService();
 		Response response = authService.signUp(signUpRequest);

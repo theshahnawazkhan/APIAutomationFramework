@@ -15,7 +15,7 @@ public class ForgotPasswordAPITest {
 	public void forgotPasswordTest() {
 
 		AuthService authService = new AuthService();
-		Response response = authService.forgotPassword("demo123@gmail.com");
+		Response response = authService.forgotPassword("demo124@gmail.com");
 		System.out.println(response.asPrettyString());
 
 	}

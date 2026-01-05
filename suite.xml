@@ -2,7 +2,10 @@
 <suite name="API Test Automation">
     <test name="API Test Automation">
         <classes>
+            <class nam = "com.api.tests.CreateAccountAPITest"></class>
             <class name="com.api.tests.LoginAPITest"/>
+            <class name="com.api.tests.ForgotPasswordAPITest"/>
+            <class name="com.api.tests.GetProfileRequestTest"/>
         </classes>
     </test>
 </suite>
